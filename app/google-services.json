@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1091210765889",
+    "firebase_url": "https://infinitecharge-4e561.firebaseio.com",
+    "project_id": "infinitecharge-4e561",
+    "storage_bucket": "infinitecharge-4e561.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091210765889:android:41d2f456160a8b0d",
+        "android_client_info": {
+          "package_name": "com.example.tharinduranaweera.infinitecharge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091210765889-r0rt2l35plbp5du1i9m9lp1gvuogcmh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tharinduranaweera.infinitecharge",
+            "certificate_hash": "7a533363723503f16e728f02d7a7c85e7a4921f8"
+          }
+        },
+        {
+          "client_id": "1091210765889-lvjqcp91mkt0dc8h410obpj4811l5bjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoBCN_a_STHlQX04cuEfLgsE-wcxD10Yo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091210765889-lvjqcp91mkt0dc8h410obpj4811l5bjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

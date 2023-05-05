@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.tharinduranaweera.infinitecharge.LoginActivity">
+
+    <TextView
+        android:id="@+id/loginScreenText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/aclonica"
+        android:text="User Login"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/passwordEditText"
+        android:layout_below="@+id/loginScreenText"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/edit_text_res"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/emailEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/edit_text_res"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginScreenButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button_res"
+        android:text="Log in"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/changeModeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginScreenButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:clickable="true"
+        android:text="Not registered yet? Register"
+        android:textColor="@color/loginTextColor"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/guestLoginButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/changeModeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/button_res"
+        android:text="Guest Login"
+        android:textColor="#FFFFFF" />
+</android.widget.RelativeLayout>

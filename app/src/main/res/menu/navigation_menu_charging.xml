@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/charging_menu_id"
+        android:title="Power"
+        android:icon="@drawable/ic_battery_charging_full_white_24dp"
+        android:orderInCategory="1"/>
+
+    <item
+        android:id="@+id/fitness_menu_id"
+        android:title="Fitness"
+        android:icon="@drawable/ic_fitness_center_white_24dp"
+        android:orderInCategory="2"/>
+
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tharinduranaweera.infinitecharge.HomeActivity"
+    android:background="@drawable/back">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+        app:title="Infinite Charge"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/PopUpMeuTheme"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/radiogroup"
+        android:layout_below="@id/viewPager">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:checked="true"/>
+    </RadioGroup>
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/bluetoothbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiogroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:floating_background_color="@color/buttonColor"
+        app:floating_left_icon="@drawable/ic_bluetooth_connected_black_24dp"
+        app:floating_title="Connect to the device"
+        app:floating_title_color="@android:color/white" />
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/exitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bluetoothbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        app:floating_background_color="@color/buttonColor"
+        app:floating_left_icon="@drawable/ic_close_black_24dp"
+        app:floating_title="Exit"
+        app:floating_title_color="@android:color/white" />
+
+</android.widget.RelativeLayout>
